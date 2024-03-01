@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    /* margin-top: 50%; */
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    width: 380px;
+    height: 650px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.db {
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+.flex {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.para-color {
+    color: hsl(0, 0%, 80%);
+    font-weight: 200;
+    /* color: hsl(0, 0%, 12%); */
+    /* color: hsl(0, 0%, 20%); */
+}
+
+.green {
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.main {
+    font-size: 27px;
+    height: 21px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: url(/assets/images/avatar-jessica.jpeg) center center/cover;
+    margin-bottom: 30px;
+}
